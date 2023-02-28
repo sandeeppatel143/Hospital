@@ -1,0 +1,89 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  
+  body {
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  /* designing the navigation menu */
+  nav {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+  }
+  
+  /* designing the logo */
+  nav img {
+    width: 150px;
+  }
+  
+  /* desiging the navigation menu links */
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+  }
+  
+  nav ul li:first-child {
+    font-weight: 700;
+    color: #20bc7e;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  /* CONTACT fORM */
+
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  .form{
+    height: 50vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px gray, -2px -2px 5px gray;
+    gap: 10px;
+    font-weight: 550;
+  }
+  .form h2{
+    text-align: center;
+  }
+  .name, .email, .message{
+    border-radius: 7px;
+    padding: 3px;
+    border: none;
+    width: 210px;
+  }
+  .btn{
+    padding: 8px;
+    font-weight: 600;
+    background-color: #20bc7e;
+    color: white;
+    border-radius: 7px;
+    border: none;
+  }
+  

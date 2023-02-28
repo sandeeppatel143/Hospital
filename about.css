@@ -1,0 +1,86 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+  }
+  
+  body {
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  /* designing the navigation menu */
+  nav {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+  }
+  
+  /* designing the logo */
+  nav img {
+    width: 150px;
+  }
+  
+  /* desiging the navigation menu links */
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+  }
+  
+  nav ul li:first-child {
+    font-weight: 700;
+    color: #20bc7e;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  /* Main Section */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+  .about{
+    width: 45%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .best{
+    color: #20bc7e;
+  }
+  .button{
+    display: flex;
+    gap: 30px;
+  }
+  .button p:first-child{
+    color: #20bc7e;
+  }
+  .button .btn{
+    padding: 15px 28px;
+    border-radius: 8px;
+    border: navajowhite;
+    font-weight: 700;
+    box-shadow: 2px 2px 5px #5a5656, -2px -2px 5px #5a5656;
+  }
